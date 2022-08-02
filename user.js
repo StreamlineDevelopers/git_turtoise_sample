@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 const Schema = mongoose.Schema;
-
+// check data
 const userSchema = new mongoose.Schema({
   mail: { type: String, unique: true },
   username: { type: String, trim: false, required: true },
